@@ -33,13 +33,13 @@ const Navigation = () => {
         </div>
         
         <button 
-          className="hamburger"
+          className={`hamburger ${isMenuOpen ? 'open' : ''}`}
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
-          <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
-          <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
-          <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
         </button>
 
         <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
