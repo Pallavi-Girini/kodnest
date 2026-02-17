@@ -15,9 +15,6 @@ const Navigation = () => {
   ]
 
   const isActive = (path) => {
-    if (path === '/dashboard' && (location.pathname === '/' || location.pathname === '/dashboard')) {
-      return true
-    }
     return location.pathname === path
   }
 

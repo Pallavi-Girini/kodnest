@@ -5,7 +5,7 @@ const Saved = () => {
     <div className="page">
       <div className="page-content">
         <h1 className="page-heading">Saved</h1>
-        <p className="page-subtext">This section will be built in the next step.</p>
+        <p className="page-subtext">Your saved job opportunities will appear here.</p>
       </div>
     </div>
   )

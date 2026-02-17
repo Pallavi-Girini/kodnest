@@ -1,0 +1,67 @@
+.settings-content {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.settings-form {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2C2C2C;
+  letter-spacing: 0.01em;
+}
+
+.form-input,
+.form-select {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  padding: 0.875rem 1rem;
+  border: 1px solid rgba(139, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  color: #2C2C2C;
+  transition: border-color 0.2s ease;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #8B0000;
+}
+
+.form-input:disabled,
+.form-select:disabled {
+  background-color: #F7F6F3;
+  color: #9B9B9B;
+  cursor: not-allowed;
+}
+
+.form-input::placeholder {
+  color: #9B9B9B;
+}
+
+@media (max-width: 768px) {
+  .settings-content {
+    max-width: 100%;
+  }
+
+  .settings-form {
+    margin-top: 2rem;
+    gap: 1.5rem;
+  }
+}
