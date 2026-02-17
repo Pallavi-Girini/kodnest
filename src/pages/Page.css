@@ -1,0 +1,46 @@
+.page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background-color: #F7F6F3;
+}
+
+.page-content {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.page-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #2C2C2C;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.page-subtext {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: #6B6B6B;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 3rem 1.5rem;
+  }
+
+  .page-heading {
+    font-size: 2.5rem;
+  }
+
+  .page-subtext {
+    font-size: 1rem;
+  }
+}
